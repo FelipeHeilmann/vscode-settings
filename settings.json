@@ -1,0 +1,80 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 19,
+    "editor.fontFamily": "Cascadia Code",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "Cascadia code",
+    "terminal.integrated.fontSize": 14,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "always",
+    },
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma",
+        "editor.formatOnSave": true,
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "files.associations": {
+        ".env*": "dotenv"
+    },
+    "dotenv.enableAutocloaking": false,
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.editorAssociations": {
+        "*.sql": "default"
+    },
+    "material-icon-theme.folders.associations": {
+        "adapters": "contract",
+        "grpc": "pipe",
+        "kube": "kubernetes",
+        "main": "lib",
+        "websockets": "pipe",
+        "implementations": "core",
+        "protos": "pipe",
+        "entities": "class",
+        "kafka": "pipe",
+        "migrations": "tools",
+        "schemas": "class",
+        "useCases": "controller",
+        "eslint-config": "tools",
+        "typeorm": "database",
+        "_shared": "shared",
+        "mappers": "meta",
+        "fakes": "mock",
+        "modules": "components",
+        "subscribers": "messages",
+        "domain": "class",
+        "protocols": "contract",
+        "infra": "app",
+        "view-models": "views",
+        "presentation": "template",
+        "dtos": "typescript",
+        "http": "container",
+        "providers": "include",
+        "factories": "class",
+        "repositories": "mappings"
+    },
+    "material-icon-theme.files.associations": {
+        ".env.exemple": "tune"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "symbols.hidesExplorerArrows": false,
+    "workbench.colorTheme": "Min Dark",
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "files.exclude": {
+        "**/.vs": true,
+        "**/bin": true,
+        "**/obj": true
+    },
+    "workbench.iconTheme": "symbols",
+    "editor.stickyScroll.scrollWithEditor": false,
+    "notebook.stickyScroll.mode": "flat",
+    "editor.stickyScroll.enabled": false,
+    "workbench.tree.enableStickyScroll": false,
+    "remote.autoForwardPortsSource": "hybrid",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": []
+    }
+}
